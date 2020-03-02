@@ -1,0 +1,23 @@
+
+
+
+
+export MAVEN_HOME=/work/JAVA_WORK/maven/apache-maven-3.5.4
+export M2_HOME=/work/JAVA_WORK/maven/apache-maven-3.5.4
+export PATH=$M2_HOME/bin:$MAVEN_HOME/bin:$PATH
+
+mvn -Pyarn -Phive -Phive-thriftserver -DskipTests clean package
+
+
+
+
+
+
+
+
+
+
+
+
+
+
